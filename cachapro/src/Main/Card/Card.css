@@ -1,0 +1,39 @@
+.Card{
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 420px;
+    margin-top: 20px 20px 0 0;
+
+
+    box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.2), 0 18px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.Card:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.Card img{
+    border-radius: 20px;
+    width: 100%;
+    height: 45%;
+}
+.Card h3 , p{
+    padding-left: 15px;
+}
+.Card button{
+    background-color: white;
+    border: none;
+    color: #3333ff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+.Card button:hover{
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+
+}

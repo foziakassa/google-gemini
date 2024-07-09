@@ -1,0 +1,125 @@
+.Card{
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 430px;
+    margin-top: 20px 20px 0 0;
+
+
+    box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.2), 0 18px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.Card:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.Card img{
+    border-radius: 20px 20px 0px 0px ;
+    width: 100%;
+    height: 45%;
+    margin-button:20px;
+}
+.Card h1 ,p {
+
+    padding-left: 15px;
+    
+    
+}
+.Card p{
+    margin-top:15px;
+
+}
+.Card h1{
+    margin-top:25px;
+    color:#009087;
+
+    
+    
+}
+.Card button{
+    /* background-color: rgb(172, 115, 57); */
+    border: none;
+    color: lightcoral;
+    margin-top:15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius:4px
+    
+}
+/* .Card button:hover{
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    border-radius: 5px;
+
+} */
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: rgb(172, 115, 57);
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .button2:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #009087;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  

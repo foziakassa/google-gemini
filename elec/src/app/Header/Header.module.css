@@ -1,0 +1,57 @@
+
+.Header{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-around;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.3s ease-in-out;
+    width: 100%; /* Add this line to make the header span the full width */
+    background-color: #ffffff;
+    padding:25px
+}
+.Header:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    transform: translateY(-0.5px);
+}
+.Button a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#001a00;
+    font-size: 20px;
+    text-transform:uppercase;
+    position: relative;
+}
+.Button a:hover{
+color: #004d00;
+background-color: white;
+padding: 15px;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+.name h1{
+    color:#009087;
+
+}
+
+.name img{
+    width: 60px;
+    border-radius: 50%;
+    margin-left:10px
+}
+
+
+

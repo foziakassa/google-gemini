@@ -49,6 +49,9 @@ color: rgb(238, 238, 243);
     padding: 20px 25px;
     border-radius: 15px;
 }
+.main p{
+    color: white;
+}
 .main .card:hover{
     background-color: rgb(29, 57, 83);
 }

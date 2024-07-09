@@ -1,0 +1,23 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+.Header {
+    @apply items-center flex justify-around bg-white text-center shadow-[rgba(0,0,0,0.1)_0px_4px_12px] transition-all duration-[0.3s] ease-[ease-in-out] px-0 py-[15px] hover:shadow-[rgba(0,0,0,0.2)_0px_8px_24px];
+    /* background-color: #00091a; */
+  }
+  .Header:hover {
+    /* transform: translateY(-2px); */
+  }
+  .Button a {
+    @apply list-none no-underline text-[#001a00] text-xl uppercase relative ml-5 hover:text-[#004d00] hover:bg-[white] hover:shadow-[0_4px_8px_0_rgba(0,0,0,0.2),0_6px_20px_0_rgba(0,0,0,0.19)] hover:p-[15px] hover:rounded-[5px];
+    font-family: "Courier New", Courier, monospace;
+  }
+  .name {
+    @apply flex items-center;
+  }
+  .name img {
+    @apply w-20 rounded-[50%];
+  }
+  

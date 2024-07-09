@@ -1,0 +1,24 @@
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  column-gap: 100px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.Service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.xx{
+  margin-top:70px;
+  /* background-color:#d7d7c1; */
+}
+
+.Service img{
+  border-radius: 50%;
+  height: 150px;
+}
+

@@ -1,0 +1,46 @@
+.Header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.3s ease-in-out;
+}
+.Header:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    /* transform: translateY(-2px); */
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333;
+}
+p span{
+    background-color: #990000;
+    margin-left: 10px;
+    padding: 10px 20px ;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.cartButton button{
+    margin-left: 300px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    background-color: #660000;
+    color: white;
+    cursor: pointer;
+    margin-left: 700px;
+
+}
+.cartButton button:hover{
+    transform: translateY(-2px);
+    background-color: #4d0000;
+}
+
